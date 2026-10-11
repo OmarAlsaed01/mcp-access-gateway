@@ -1,0 +1,13 @@
+# Deployment-specific config (team domain, AUD tag, allowed emails, server command)
+proxy-config.json
+server-command.cmd
+
+# Runtime output
+logs/
+*.log
+*.log.old
+
+# Python
+.venv/
+__pycache__/
+*.pyc

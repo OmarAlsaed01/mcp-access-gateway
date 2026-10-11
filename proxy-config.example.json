@@ -1,0 +1,8 @@
+{
+  "team_domain": "<team>.cloudflareaccess.com",
+  "aud": "<Application Audience (AUD) Tag from the Access app's Overview>",
+  "allowed_emails": ["you@example.com"],
+  "listen_port": 8485,
+  "upstream": "http://127.0.0.1:8484",
+  "log_dir": "logs"
+}
