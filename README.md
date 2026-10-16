@@ -1,5 +1,7 @@
 # mcp-access-gateway
 
+[![CI](https://github.com/OmarAlsaed01/mcp-access-gateway/actions/workflows/ci.yml/badge.svg)](https://github.com/OmarAlsaed01/mcp-access-gateway/actions/workflows/ci.yml)
+
 Securely expose **any local MCP server** to claude.ai (web, desktop, and mobile) using **Cloudflare Tunnel + Cloudflare Access**, without opening a single inbound port and without writing an OAuth server.
 
 The repo is small on purpose: one ~230-line Python proxy, a self-contained test suite, and Windows scripts that run everything as boot-time background tasks.
